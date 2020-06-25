@@ -6,13 +6,32 @@
         xmlns:local="clr-namespace:sqlAdd"
         xmlns:clr="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="417" Width="687">
     <Window.Resources>
         <clr:String x:Key="str">
             Bonjour !
         </clr:String>
     </Window.Resources>
-    <Canvas x:Name="monCanvas">
-        <Button Content="Hello world"></Button>
-    </Canvas>
+    <Grid x:Name="monDoc">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto">
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="auto">
+
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Content="Hello world 1" Grid.Column="0"></Button>
+        <Button Content="Hello world 2" Grid.Column="1"></Button>
+        <!--<Button Content="Hello world 3"></Button>
+        <Button Content="Hello world 4"></Button>
+        <Button Content="Hello world 5"></Button>
+        <Button Content="Hello world 6"></Button>
+        <Button Content="Hello world 7"></Button>
+        <Button Content="Hello world 8"></Button>
+
+        <Button Content="Hello world 9"></Button>
+        <Button Content="Hello world 10"></Button>-->
+
+    </Grid>
 </Window>
