@@ -9,12 +9,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
         <clr:String x:Key="str">
-            Bonjour
+            Bonjour !
         </clr:String>
     </Window.Resources>
-    <Grid x:Name="maGrille">
-        <Button x:Name="button" 
-                Content="{x:Static Application.ResourceAssembly}" HorizontalAlignment="Left" Height="28" Margin="345,171,0,0" 
-                VerticalAlignment="Top" Width="104" RenderTransformOrigin="-0.038,0.821"/>
-    </Grid>
+    <Canvas x:Name="monCanvas">
+        <Button Content="Hello world"></Button>
+    </Canvas>
 </Window>

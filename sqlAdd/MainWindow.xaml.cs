@@ -27,7 +27,7 @@ namespace sqlAdd
         public MainWindow()
         {
             InitializeComponent();
-            button.HorizontalAlignment = HorizontalAlignment.Left;
+            //button.HorizontalAlignment = HorizontalAlignment.Left;
 
             //var b = new Button();
             //b.Content = "Coucou";
