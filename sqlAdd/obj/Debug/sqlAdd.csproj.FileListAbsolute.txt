@@ -1,0 +1,16 @@
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\bin\Debug\sqlAdd.exe.config
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\bin\Debug\sqlAdd.exe
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\bin\Debug\sqlAdd.pdb
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd.csprojAssemblyReference.cache
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\MainWindow.g.cs
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\App.g.cs
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd_MarkupCompile.cache
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd_MarkupCompile.lref
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\MainWindow.baml
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd.g.resources
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd.Properties.Resources.resources
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd.csproj.GenerateResource.cache
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd.csproj.CoreCompileInputs.cache
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd.exe
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd.pdb
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\GeneratedInternalTypeHelper.g.cs
