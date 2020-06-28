@@ -13,4 +13,4 @@ C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd.csproj.GenerateR
 C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd.csproj.CoreCompileInputs.cache
 C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd.exe
 C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\sqlAdd.pdb
-C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Anas FAOUR\source\repos\sqlAdd\sqlAdd\obj\Debug\App.baml

@@ -11,27 +11,35 @@
         <clr:String x:Key="str">
             Bonjour !
         </clr:String>
+
     </Window.Resources>
     <Grid x:Name="monDoc">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto">
-
+            <ColumnDefinition Width="*">
             </ColumnDefinition>
             <ColumnDefinition Width="auto">
-
+            </ColumnDefinition>
+            <ColumnDefinition Width="*">
             </ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Button Content="Hello world 1" Grid.Column="0"></Button>
-        <Button Content="Hello world 2" Grid.Column="1"></Button>
-        <!--<Button Content="Hello world 3"></Button>
-        <Button Content="Hello world 4"></Button>
-        <Button Content="Hello world 5"></Button>
-        <Button Content="Hello world 6"></Button>
-        <Button Content="Hello world 7"></Button>
-        <Button Content="Hello world 8"></Button>
-
-        <Button Content="Hello world 9"></Button>
-        <Button Content="Hello world 10"></Button>-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" HorizontalAlignment="Center" Grid.ColumnSpan="3">Hi my friends</TextBlock>
+        <Button Content="Hello world" Grid.Row="1" Grid.Column="0" Width="80" 
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                Style="{StaticResource ResourceKey=Style-I-}"></Button>
+        <Button Content="Cancel" Grid.Row="1"  Grid.Column="2" Width="80" 
+                VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button.Style>
+                <Style>
+                    <Setter Property="Button.Foreground" Value="LemonChiffon"></Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+        <GridSplitter Grid.Row="1" Grid.Column="1" Width="5" HorizontalAlignment="Stretch" 
+                      ResizeDirection="Columns"></GridSplitter>
 
     </Grid>
 </Window>

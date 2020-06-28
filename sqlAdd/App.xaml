@@ -4,6 +4,13 @@
              xmlns:local="clr-namespace:sqlAdd"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="Style-I-" TargetType="Control">
+            <Setter Property="Background" Value="Azure"></Setter>
+        </Style>
+        <Style x:Key="Style-II-" BasedOn="{StaticResource ResourceKey=Style-I-}" TargetType="Control">
+            <Setter Property="Foreground" Value="Red"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
     </Application.Resources>
 </Application>
